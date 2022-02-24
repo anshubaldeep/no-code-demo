@@ -8,7 +8,11 @@ Built as a monorepo with love and lerna by ```- Baldeep Singh```
 
 # Apps and port numbers
 Container: 3000
+
 Counter app: 3001
+
 Header App: 3002
+
 Redux Store App: 3005
+
 Todo App (Utilities): 3006
