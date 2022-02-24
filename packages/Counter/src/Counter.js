@@ -5,16 +5,13 @@ import "./index.css";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 
-const App = ({name='dd'}) => {
+const App = () => {
   const { count, increment, clear } = useStore();
 
   return (
   <div className="container">
    Count is: {count}
    <br/>
-   <div>
-     {name}
-   </div>
    <button onClick={() => increment()} style={{ marginRight: '10px' }}>
       Increment
     </button>

@@ -21,7 +21,7 @@ const App = () =>{
           <Link to="/todo">Todo</Link>
         </div>
           <Routes>
-            <Route path="counter" element={<Counter name='Add'/>} />
+            <Route path="counter" element={<Counter />} />
             <Route path="todo" element={<Todo />} />
           </Routes>
         </div>
